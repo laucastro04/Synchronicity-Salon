@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synchronicity Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Hero Page-->
+    <div class="banner">
+        <video autoplay loop muted playsinline class="backvideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="logo.png" class="logo" alt="Synchronicity Salon Logo">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#service-menu-section">Service Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="https://book.squareup.com/appointments/ue5ach716wqzhr/location/L3QN3ZPKMZGC8/services" target="_blank">Book Now</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Welcome to<br>Synchronicity Salon,</h1>
+            <p>Where beauty is not just a service, but a shared<br>passion passed down through generations.</p>
+            <button class="primary-button" id="book-now-button">Book Now</button>
+        </div>
+    </div>
+    <!--Service Menu-->
+    <div class="service-menu" id="service-menu-section">
+        <h2>Service Menu</h2>
+        <div class="service-menu-gallery">
+            <figure>
+                <img src="colorservices.jpg" class="gallery"/>
+                <figcaption>Color Services</figcaption>
+            </figure>
+            <figure>
+                <img src="styling&cuts.jpg" class="gallery"/>
+                <figcaption>Styling & Cuts</figcaption>
+            </figure>
+            <figure>
+                <img src="extensions.jpg" class="gallery"/>
+                <figcaption>Extensions</figcaption>
+            </figure>
+            <figure>
+                <img src="treatments.jpg" class="gallery"/>
+                <figcaption>Treatments</figcaption>
+            </figure>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
